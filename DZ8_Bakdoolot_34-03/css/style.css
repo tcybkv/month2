@@ -1,0 +1,29 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.movie {
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px solid #bbb7b7;
+}
+.column {
+    flex: 1;
+    padding: 8px;
+}
+.title {
+    font-weight: bold;
+}
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #45a049;
+}
+.gray {
+    background-color: #cccccc;
+}
